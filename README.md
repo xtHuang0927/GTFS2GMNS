@@ -107,17 +107,15 @@ Create the agent file for transit schedule into GMNS format.
 ## Sample Networks
 
 Phoenix Transit Network
+<img src="https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Phoenix.PNG" style="zoom:67%;" />
 
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20210404131012303.png" alt="image-20210404131012303" style="zoom:67%;" />
+Pittsburgh Transit Network
+![image](https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Pittsburgh%20.PNG)
+
+Raleigh Transit Network
+![image](https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Raleigh.PNG)
+
 
 Philadelphia Transit Network
 
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20210404131153810.png" alt="image-20210404131153810" style="zoom:80%;" />
-
-Pittsburgh Transit Network
-
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20210404131401212.png" alt="image-20210404131401212" style="zoom:67%;" />
-
-Raleigh Transit Network
-
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20210404131533414.png" alt="image-20210404131533414" style="zoom:67%;" />
+<img src="https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Philadelphia.PNG" style="zoom:80%;" />
