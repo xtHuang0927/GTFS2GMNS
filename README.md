@@ -107,7 +107,8 @@ Create the agent file for transit schedule into GMNS format.
 ## Sample Networks
 
 Phoenix Transit Network
-![image](https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Phoenix.PNG)
+<img src="https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Phoenix.PNG" style="zoom:67%;" />
+
 
 Philadelphia Transit Network
 ![image](https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Philadelphia.PNG)
