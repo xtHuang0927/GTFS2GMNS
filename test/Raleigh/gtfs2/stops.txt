@@ -1,0 +1,115 @@
+stop_id,stop_code,platform_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,position,direction,wheelchair_boarding
+2320166,264,,Oval Dr at Main Campus Dr,,35.7747804357,-78.6718405611,,,0,,America/New_York,,,0
+2326131,265,,Trinity Rd at Blue Ridge Rd,,35.798327,-78.708224,,,0,,America/New_York,,,0
+2382746,135,,Engineering II (COE),,35.7721106039,-78.6734407004,,,0,,America/New_York,,,0
+2382751,8585,,Hillsborough St at Furches St,,35.792332,-78.682154,,,0,,America/New_York,,,0
+2382756,270,,Varsity Dr at Campus Police,,35.7853527538,-78.681745876,,,0,,America/New_York,,,0
+2382757,9612,,Cates Ave at Jensen Dr (EB),,35.7818834064,-78.6680446859,,,0,,America/New_York,,,0
+2382758,273,,Stinson Dr at Boney Dr (Leazar Hall),,35.7850137593,-78.6650514267,,,0,,America/New_York,,,0
+2382759,274,,Stinson Dr at Current Dr (Park Shops),,35.7852015958,-78.6675417782,,,0,,America/New_York,,,0
+2382760,275,,Stinson Dr Ext at Yarborough Dr,,35.7857443181,-78.6706601561,,,0,,America/New_York,,,0
+2382761,276,,Yarborough Dr at Dan Allen Dr (Clark Labs),,35.7868166768,-78.6741073031,,,0,,America/New_York,,,0
+2382762,277,,Sullivan Dr at Admin Services (WB),,35.7875725061,-78.6823743171,,,0,,America/New_York,,,0
+2432551,278,,Barbour Dr at Spring Hill Lot,,35.7741225156,-78.6666757007,,,0,,America/New_York,,,0
+2432552,279,,Wolf Ridge at Initiative Way (NB),,35.7691981937,-78.671902627,,,0,,America/New_York,,,0
+2432553,280,,The Greens at Initiative Way,,35.766311769,-78.6741968707,,,0,,America/New_York,,,0
+2434983,281,,Initiative Way at Main Campus Dr Lots,,35.7735688796,-78.6704328702,,,0,,America/New_York,,,0
+2452916,282,,The Greens at Initiative Way (Inbound),,35.7663300536,-78.6743915684,,,0,,America/New_York,,,0
+2526178,8241,,Hillsborough St at Dixie Trail,,35.789423,-78.675338,,,0,,America/New_York,,,0
+2555749,228,,Westchase Blvd at The Station,,35.8023515275,-78.7112362686,,,0,,America/New_York,,,0
+777557,101,,Centennial Biomedical Campus at Vet School (SB),,35.7974770085,-78.7051526548,,,0,,America/New_York,,,0
+777559,103,,Centennial Biomedical Campus at Vet School (NB),,35.797277,-78.705044,,,0,,America/New_York,,,0
+777564,112,,Founders Dr at Nelson Hall,,35.7887463132,-78.6736299404,,,0,,America/New_York,,,0
+777565,113,,Scott Hall - Platform B,,35.7883212022,-78.6715704147,,,0,,America/New_York,,,0
+777566,114,,Scott Hall - Platform A,,35.7883790333453,-78.6718585156558,,,0,,America/New_York,,,0
+777567,115,,Founders Dr at Lampe Dr (Patterson Hall),,35.787528863,-78.6682280942,,,0,,America/New_York,,,0
+777568,117,,Stinson Dr at Boney Dr (Brooks Hall),,35.7848822562,-78.6650714166,,,0,,America/New_York,,,0
+777569,118,,Current Dr at Stinson Dr (Lang & Comp Labs),,35.7850777077,-78.6676474604,,,0,,America/New_York,,,0
+777570,121,,Cates Ave at Witherspoon Student Center,,35.7849635669,-78.6749216307,,,0,,America/New_York,,,0
+777571,123,,Sullivan Dr at West Lot,,35.7852576466,-78.6794547901,,,0,,America/New_York,,,0
+777572,125,,Ligon St at O'kelly St (King Village),,35.7889629539,-78.6872817728,,,0,,America/New_York,,,0
+777573,126,,Ligon St at King Village,,35.7890505111,-78.6896660881,,,0,,America/New_York,,,0
+777574,127,,Ligon St at Method Rd (King Village),,35.7891547263,-78.6934481819,,,0,,America/New_York,,,0
+777575,128,,Jackson St at Method Rd (Soccer Field),,35.7870940361,-78.6938000003,,,0,,America/New_York,,,0
+777576,129,,Jackson St at Whitmore Dr (King Village),,35.7870797995,-78.6897664999,,,0,,America/New_York,,,0
+777577,132,,Faucette Dr at Weaver Labs,,35.7829375961,-78.6798355468,,,0,,America/New_York,,,0
+777579,134,,Partners Way at Varsity Dr (College of Engineering),,35.771942,-78.675333,,,0,,America/New_York,,,0
+777580,136,,Varsity Dr at West Deck,,35.785524396,-78.6815293147,,,0,,America/New_York,,,0
+777581,137,,Faucette Dr at Varsity Dr (Butler),,35.7837788054,-78.6817318606,,,0,,America/New_York,,,0
+777582,140,,Dan Allen Dr at Hodges Bldg,,35.783287122,-78.6776613246,,,0,,America/New_York,,,0
+777583,141,,Faucette Dr at Dan Allen Dr (Robertson),,35.782299498,-78.6782976766,,,0,,America/New_York,,,0
+777584,143,,Yarbrough Dr at Dan Allen Dr (EB),,35.7867200544,-78.6741591135,,,0,,America/New_York,,,0
+777585,144,,Yarborough Dr at Stinson Dr (Broughton Hall),,35.7852765448,-78.6708597076,,,0,,America/New_York,,,0
+777586,147,,Pullen Rd at Stinson Dr (Brooks Hall),,35.7841084792,-78.6647871205,,,0,,America/New_York,,,0
+777587,150,,Cates Ave at Talley Student Center,,35.7836087381,-78.6712108691,,,0,,America/New_York,,,0
+777588,153,,Avent Ferry Rd at Centennial Pkwy (Burger King),,35.7775139885,-78.6780510897,,,0,,America/New_York,,,0
+777589,157,,Main Campus Dr at Venture Bldgs,,35.7729788559,-78.6772693844,,,0,,America/New_York,,,0
+777590,162,,Varsity Dr at Avent Ferry Rd (Carolyn Apts),,35.7758110002,-78.6816458616,,,0,,America/New_York,,,0
+777591,167,,Avent Ferry Rd at Gorman St (WB),,35.7685380783,-78.6938172178,,,0,,America/New_York,,,0
+777592,168,,Gorman St at Kings Ct (NB),,35.7703951737,-78.6939801613,,,0,,America/New_York,,,0
+777593,170,,Gorman St at Conifer Dr (Parkwood Village Apts),,35.7743311774,-78.6891383533,,,0,,America/New_York,,,0
+777594,171,,Conifer Dr at Crest Rd (Parkwood Village Apts),,35.7741875237,-78.685828037,,,0,,America/New_York,,,0
+777595,172,,Crest Rd at Burt Dr (Ivy Commons Apts),,35.7760883284,-78.6847771064,,,0,,America/New_York,,,0
+777596,173,,Crest Rd at Varsity Dr (Inbound),,35.7781854614,-78.6838050981,,,0,,America/New_York,,,0
+777597,174,,Varsity Dr at Crest Rd,,35.7780937173,-78.6835575868,,,0,,America/New_York,,,0
+777598,175,,Greek Village (Outbound),,35.7801468516,-78.6821306089,,,0,,America/New_York,,,0
+777599,176,,Greek Village (Inbound),,35.7799714977,-78.682106861,,,0,,America/New_York,,,0
+777602,179,,Varsity Dr at Marcom St,,35.7789995436,-78.6840346679,,,0,,America/New_York,,,0
+777603,180,,Varsity Parking Lot (1st shelter),,35.7798998517,-78.6857528016,,,0,,America/New_York,,,0
+777604,181,,Varsity Dr at McKimmon Center (East side),,35.7826179428,-78.6835827203,,,0,,America/New_York,,,0
+777605,182,,Gorman St at Varsity Parking Lot (2nd Shelter),,35.7806556654,-78.6862949135,,,0,,America/New_York,,,0
+777606,184,,Sullivan Dr at Admin Services (EB),,35.7874424365,-78.682301452,,,0,,America/New_York,,,0
+777607,187,,Varsity Dr at Varsity Research Bldg,,35.7765143478,-78.6824708504,,,0,,America/New_York,,,0
+777608,193,,Centennial RS Lots (2nd shelter),,35.774650216,-78.6702984429,,,0,,America/New_York,,,0
+777609,195,,Crest Rd at Varsity Dr (Outbound),,35.7781853794,-78.6839655151,,,0,,America/New_York,,,0
+777610,196,,Crest Rd at Burt Dr (Outbound),,35.7757823256,-78.6850453824,,,0,,America/New_York,,,0
+777611,197,,Conifer Dt at Crest Rd (Outbound),,35.7743211662,-78.6856857463,,,0,,America/New_York,,,0
+777612,198,,Conifer Dr at Gorman St (Outbound),,35.7745312013411,-78.6888372883606,,,0,,America/New_York,,,0
+777613,199,,Gorman St at Kaplan Dr (Outbound),,35.7730124542,-78.692917152,,,0,,America/New_York,,,0
+777614,200,,Gorman St at Kings Ct (SB),,35.7699751515,-78.6941992831,,,0,,America/New_York,,,0
+777615,202,,Varsity Dr at Avent Ferry Rd,,35.7748520648,-78.6800297395,,,0,,America/New_York,,,0
+777616,203,,Gorman St at Jackson St (King Village),,35.787349932,-78.6870853778,,,0,,America/New_York,,,0
+777617,204,,Main Campus Dr at College of Textiles,,35.7697940274,-78.6779666829,,,0,,America/New_York,,,0
+777618,206,,Carter-Finley Park and Ride,,35.8002268768,-78.7167181595,,,0,,America/New_York,,,0
+777619,208,,Centennial RS Lots (1st shelter),,35.7738565835,-78.6701058073,,,0,,America/New_York,,,0
+777620,209,,Greek Way at Avent Ferry Rd,,35.7659454167,-78.6976242899,,,0,,America/New_York,,,0
+777621,214,,Dan Allen Dr at Western Blvd (NB),,35.7819833622,-78.678904051,,,0,,America/New_York,,,0
+777622,215,,Wolf Village Shelter #1 (WB),,35.7869188554,-78.6842306898,,,0,,America/New_York,,,0
+777625,225,,Dan Allen Dr at Witherspoon Student Center,,35.7856560984,-78.6752147993,,,0,,America/New_York,,,0
+777626,229,,Westchase Blvd at Blue Ridge Rd,,35.8018385711,-78.70864791,,,0,,America/New_York,,,0
+777627,230,,Main Campus Dr at Partners II (Southbound),,35.7744452086,-78.6762938757,,,0,,America/New_York,,,0
+777628,231,,Dan Allen Dr at Lee Lot,,35.7845029164,-78.6762713334,,,0,,America/New_York,,,0
+777629,233,,Centennial Pkwy at Mission Valley Apartments,,35.7768011843,-78.6777978858,,,0,,America/New_York,,,0
+777631,240,,Hunt Library at Partners Way,,35.769471699,-78.6767433052,,,0,,America/New_York,,,0
+777632,249,,Dan Allen Dr at Schaub Food Science Bldg,,35.7833311839,-78.6778176591,,,0,,America/New_York,,,0
+777633,1187,,Hillsborough St at Meredith College (EB),,35.7942385025,-78.6885514794,,,0,,America/New_York,,,0
+777635,8240,,Hillsborough St at Brooks Ave (WB),,35.788818011838,-78.672490904841,,,0,,America/New_York,,,0
+777636,8273,,Hillsborough St at Friendly Dr ,Shelter stop located just West of the intersection of Hillsborough Street with Friendly Drive; in front of the new Stanhope Student Apartments.,35.7895552636462,-78.6764981977304,,,0,,America/New_York,,,0
+777637,8276,,Hillsborough St at Horne St (EB),,35.78764,-78.667888,,,0,,America/New_York,,,0
+777638,8277,,Hillsborough St at Enterprise St (NCSU Bell Tower),,35.7864949629,-78.6637517487,,,0,,America/New_York,,,0
+777639,8332,,Avent Ferry Rd at Centennial Pkwy (SB),,35.77699,-78.678749,,,0,,America/New_York,,,0
+777640,8525,,Morrill Dr at Carmichael Gym,,35.7823624719,-78.6713188433,,,0,,America/New_York,,,0
+777641,8526,,Avent Ferry Rd at Western Blvd (Avent Ferry Complex),,35.7800731694,-78.6762469992,,,0,,America/New_York,,,0
+777643,8528,,Avent Ferry Rd at Varsity Dr (Carolyn Apts),,35.77511262308,-78.681522538404,,,0,,America/New_York,,,0
+777644,8529,,Avent Ferry Rd at Crest Rd,,35.771630828975,-78.686385783773,,,0,,America/New_York,,,0
+777645,8530,,Avent Ferry Rd at Brigadoon Dr (2nd entr.),"Located WSW of junction of Brigadoon Drive with Avent Ferry Road (farthest from Western Boulevard), heading in WSW direction (towards Avent Ferry Shopping Center); just before guardrails.",35.770270765295,-78.689141878931,,,0,,America/New_York,,,0
+777646,8545,,Avent Ferry Rd at Gorman St (EB),,35.768398836,-78.6936781246,,,0,,America/New_York,,,0
+777647,8561,,Avent Ferry Rd at Trailwood Dr (EB),,35.769295865727,-78.690771837382,,,0,,America/New_York,,,0
+777648,8562,,Avent Ferry Rd at Brigadoon Dr (EB),,35.771140172844,-78.686960550283,,,0,,America/New_York,,,0
+777649,8564,,Avent Ferry Rd at Centennial View Ln,,35.773279902089,-78.683141071136,,,0,,America/New_York,,,0
+777650,8567,,Morrill Dr at Cates Ave (NB),,35.781981944,-78.6713572485,,,0,,America/New_York,,,0
+777652,8584,,Hillsborough St at Shepherd St,,35.790164,-78.678454,,,0,,America/New_York,,,0
+777653,8587,,Hillsborough St at Meredith College (WB),,35.794375634,-78.6884776035,,,0,,America/New_York,,,0
+777654,8595,,Gorman St at McKimmon Center,,35.7835865192,-78.6870155738,,,0,,America/New_York,,,0
+777655,8597,,Hillsborough St at Turner St,,35.79222,-78.682262,,,0,,America/New_York,,,0
+777656,8888,,Hillsborough St at Rosemary St,,35.790545,-78.67942,,,0,,America/New_York,,,0
+777657,9395,,Gorman St at Graduate Ln,,35.7733116112,-78.6917661319,,,0,,America/New_York,,,0
+777659,9426,,Gorman St at Sullivan Dr,,35.7887978288,-78.6862790618,,,0,,America/New_York,,,0
+777660,9604,,Avent Ferry Rd at Trailwood Dr (Kensington Apts),,35.7693634746,-78.6909845247,,,0,,America/New_York,,,0
+777661,9613,,Dunn Ave at Jeter Dr (Coliseum Parking Deck),,35.7838546455,-78.6682152343,,,0,,America/New_York,,,0
+777662,9614,,Morrill Dr at Faucette Dr,,35.781442410688,-78.674683646488,,,0,,America/New_York,,,0
+777663,9924,,Avent Ferry Rd at Avery Close Apts,,35.7739277451,-78.6827501596,,,0,,America/New_York,,,0
+780854,253,,Wolf Ridge at Initiative Way (SB),,35.769168030453,-78.672101160835,,,0,,America/New_York,,,0
+784462,189,,Gorman St at Wolf Village Way,,35.7867100832,-78.6869187283,,,0,,America/New_York,,,0
+785200,255,,Wolf Village Shelter #2 (EB),,35.7868867359,-78.6840443749,,,0,,America/New_York,,,0
+840296,263,,Sullivan Dr at Lee Lot,,35.7850598115,-78.678989346,,,0,,America/New_York,,,0

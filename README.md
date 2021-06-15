@@ -1,8 +1,12 @@
 ## GTFS2GMNS
 
-The General Transit Feed Specification [(GTFS)](https://gtfs.org/) defines a common format for public transportation schedules and associated geographic information. It is used by thousands of public transport providers. As a data conversion tool, gtfs2gmns, can directly convert the GTFS data to node, link, and agent files in the [GMNS](https://github.com/zephyr-data-specs/GMNS) format. In addition, this tool can merge the transit network into the road network which is obtain by Open Street Map via [OSM2GMNS](https://github.com/jiawei92/OSM2GMNS).
+The General Transit Feed Specification [(GTFS)](https://gtfs.org/) defines a common format for public transportation schedules and associated geographic information. It is used by thousands of public transport providers. As a data conversion tool, gtfs2gmns, can directly convert the GTFS data to node, link, and agent files in the [GMNS](https://github.com/zephyr-data-specs/GMNS) format. In addition, this tool can merge the transit network into the road network which is obtained from Open Street Map via [OSM2GMNS](https://github.com/jiawei92/OSM2GMNS).
+
+The python code is developed based on the C++ version in NeXTA data hub, which is supported by the FHWA research project titled: "the Effective Integration of Analysis, Modeling, and Simulation Tools, AMS Data Hub Concept of operations". With external link to https://www.fhwa.dot.gov/publications/research/operations/13036/004.cfm and https://github.com/asu-trans-ai-lab/nexta.
 
 ## Installation
+
+GTFS2GMNS has been published on [PyPI](https://pypi.org/project/gtfs2gmns/), and can be installed using:
 
 ```python
 pip install gtfs2gmns
@@ -18,104 +22,83 @@ On TransitFeed [homepage](https://transitfeeds.com/), users can browse and downl
 * route.txt
 * trip.txt
 * stop_times.txt
+* agency.txt
 
-### Download OSM Data
+### *Set the Directory*
 
-On OpenStreetMap [homepage](https://www.openstreetmap.org/), click the `Export` button to enter Export mode. Before downloading, you may need to span and zoom in/out the map to make sure that your target area should cover the transit network area.
+GTFS2GMNS can handle the transit data from several agencies. Users need to configure different sub-files in the same directory.  There are two agencies in the Raleigh, GoRaleigh and NCSU Wolfline. So under the `Raleigh` folder, two subfolders `gtfs1` and `gtfs2` are set up, and each subfolder includes its own GTFS data.
 
 ### *Convert GTFS Data into GMNS Format*
 
 ```python
 import gtfs2gmns as gg
 
-node_transit,link_transit = gg.Convert_GTFS(gtfs_path,gmns_path)
+path = 'Raleigh'
+gmns_path = '.'
+gg.converting(path,gmns_path)
 ```
 
-Please modify the directory.
+The input parameter  `path` is the path of GTFS data, and the parameter  `gmns_path` is the path of output GMNS files.
 
-If you need the bounding box of the transit network,  **Create_Boundary** function might help.
+The output files include node.csv, link.csv, trip.csv and route.csv.
 
-```python
-import gtfs2gmns as gg
+## Main Steps
 
-node_transit,link_transit = gg.Convert_GTFS(gtfs_path,gmns_path)
-bbox = gg.Create_Boundary(node_transit)
-```
+### *Read GTFS data*
 
-### *Get the OSM Network*
+**Step 1.1: Read routes.txt**
 
-Before merging the transit network into the road network, you need to download the osm data and convert it into the GMNS format first. [OSM2GMNS](https://github.com/jiawei92/OSM2GMNS) python package will be a good choice.
+- route_id, route_long_name, route_short_name, route_url, route_type
 
-```python
-import os
-import osm2gmns as og
+**Step 1.2: Read stop.txt**
 
-net = og.getNetFromOSMFile('osm/map.osm',network_type=('auto'), default_lanes=True, default_speed=True)
-og.outputNetToCSV(net, output_folder='osm/')
+- stop_id, stop_lat, stop_lon, direction, location_type, position, stop_code, stop_name, zone_id
 
-net = og.getNetFromCSV(osm_path)
-og.consolidateComplexIntersections(net)
-og.outputNetToCSV(net, output_folder=osm_path)
-```
+**Step 1.3: Read trips.txt**
 
-### *Create the Connector*
+- trip_id, route_id, service_id, block_id, direction_id, shape_id, trip_type
+- and create the directed_route_id by combining route_id and direction_id
 
-You can merge the networks by building the connector between the transit node and the nearby OSM node.
+**Step 1.4: Read stop_times.txt**
 
-Make sure you already obtain node_transit.csv and the osm files (node.csv and link.csv).
+- trip_id, stop_id, arrival_time, deaprture_time, stop_sequence
 
-```python
-import gtfs2gmns as gg
+- create directed_route_stop_id by combining directed_route_id and stop_id through the trip_id
 
-node,link_osm_connector = gg.CreatConnector_osm_gtfs(osm_path,gmns_path)
-```
+  > Note: the function needs to skip this record if trip_id is not defined, and link the virtual stop id with corresponding physical stop id.
 
-### *Create the Transit Route*
+- fetch the geometry of the direction_route_stop_id
 
-This procedure can help you generate the actual trace for the transit route.
+- return the arrival_time for every stop
 
-```python
-import gtfs2gmns as gg
+### *Building service network*
 
-link = gg.Create_TransitRoute(gmns_path)
-```
+**Step 2.1 Create physical nodes**
+
+- physical node is the original stop in standard GTFS
+
+**Step 2.2 Create directed route stop vertexes**
+
+- add route stop vertexes. the node_id of route stop nodes starts from 100001
+
+  > Note: the route stop vertex the programing create nearby the corresponding physical node, to make some offset.
+
+- add entrance link from physical node to route stop node
+- add exit link from route stop node to physical node. As they both connect to the physical nodes, the in-station transfer process can be also implemented
+
+**Step 2.3 Create physical arcs**
+
+- add physical links between each physical node pair of each trip
+
+**Step 2.4 Create service arcs**
+
+- add service links between each route stop pair of each trip
 
 ## Visualization
 
 You can visualize generated networks using [NeXTA](https://github.com/xzhou99/NeXTA-GMNS) or [QGIS](https://qgis.org/).
 
-## Module
+## Upcoming Features
 
-**gtfs2gmns.py**
-
-Convert GTFS Data into GMNS Format, including node and link files.
-
-**create_connector.py**
-
-Need to Download the OSM data first and convert it into GMNS format based on [osm2gmns](https://osm2gmns.readthedocs.io/en/latest/).
-
-Build the connector between the transit node and the road node.
-
-**trace2route.py** 
-
-Create the actual transit route through the shortest path [algorithm](https://github.com/jdlph/PATH4GMNS).
-
-**create_agent.py**
-
-Create the agent file for transit schedule into GMNS format.
-
-## Sample Networks
-
-Phoenix Transit Network
-<img src="https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Phoenix.PNG" style="zoom:67%;" />
-
-Pittsburgh Transit Network
-![image](https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Pittsburgh%20.PNG)
-
-Raleigh Transit Network
-![image](https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Raleigh.PNG)
-
-
-Philadelphia Transit Network
-
-<img src="https://github.com/xtHuang0927/GTFS2GMNS/blob/main/dataset/pic/Philadelphia.PNG" style="zoom:80%;" />
+- [ ] Output service and trace files.
+- [ ] Set the time period and add vdf_fftt and vdf_freq fields in link files.

@@ -1,0 +1,20 @@
+agency_id,route_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order,min_headway_minutes,eligibility_restricted,continuous_pickup,continuous_drop_off
+239,1594,1,Avent Ferry,Serving Avent Ferry and Greek Way,3,https://transportation.ncsu.edu/fall-spring-routes-schedules/,a20000,ffffff,0,40,0,1,1
+239,9881,2,Spring Hill,Serving Spring Hill Park & Ride,3,https://transportation.ncsu.edu/fall-spring-routes-schedules/,a20000,ffffff,1,30,0,1,1
+239,1604,9,Gorman Street,,3,http://www2.acs.ncsu.edu/trans/wolfline/schedules.html,a20000,ffffff,10,45,0,1,1
+239,10996,9S,Gorman Street,,3,http://www2.acs.ncsu.edu/trans/wolfline/schedules.html,a20000,ffffff,11,35,0,1,1
+239,1595,10,Centennial,,3,http://www2.acs.ncsu.edu/trans/wolfline/schedules.html,a20000,ffffff,12,30,0,1,1
+239,1596,11,Village Link,,3,http://www2.acs.ncsu.edu/trans/wolfline/schedules.html,a20000,ffffff,13,30,0,1,1
+239,1606,12,Night Wolf,,3,http://www2.acs.ncsu.edu/trans/wolfline/night.html,a20000,ffffff,14,35,0,1,1
+239,3282,13,Full Moon,,3,http://www2.acs.ncsu.edu/trans/wolfline/night.html,a20000,ffffff,15,35,0,1,1
+239,1605,14,Centennial Night,,3,http://www2.acs.ncsu.edu/trans/wolfline/night.html,a20000,ffffff,16,25,0,1,1
+239,11191,16,Werewolf Shuttle,Wolfline Night Service,3,http://www2.acs.ncsu.edu/trans/wolfline/night.html,a20000,ffffff,17,30,0,1,1
+239,3562,17,RS Lot Shuttle,"RS Lot Shuttle connects Centennial Storage Parking Lots to campus residence halls.  It operates 8:00 p.m. - Midnight every Sunday, and on evenings prior to classes resuming after holiday breaks.",3,http://www2.acs.ncsu.edu/trans/maps/map-holiday-sunday-shuttle.pdf,a20000,ffffff,18,30,0,1,1
+239,1598,3,Engineering,Connecting Centennial Campus and Main Campus,3,https://transportation.ncsu.edu/fall-spring-routes-schedules/,a20000,ffffff,2,24,0,1,1
+239,9991,4,Centennial Express,"Serving Carmichael Gym, Dunn/Jeter & Centennial Campus",3,https://transportation.ncsu.edu/fall-spring-routes-schedules/,a20000,ffffff,3,24,0,1,1
+239,1600,5,Varsity,Main Campus Circulators,3,https://transportation.ncsu.edu/fall-spring-routes-schedules/,a20000,ffffff,4,30,0,1,1
+239,1601,6,Carter Finley,,3,http://www2.acs.ncsu.edu/trans/wolfline/schedules.html,a20000,ffffff,5,30,0,1,1
+239,2056,6S,Hillsborough Street West,,3,http://www2.acs.ncsu.edu/trans/wolfline/summer.html,a20000,ffffff,6,25,0,1,1
+239,1602,7,Wolflink Shuttle,,3,http://www2.acs.ncsu.edu/trans/wolfline/schedules.html,a20000,ffffff,7,30,0,1,1
+239,1597,7R,Wolflink Reverse,Main campus circulator that runs opposite of Route 7 Wolflink Shuttle.  Established Fall 2017.,3,http://www2.acs.ncsu.edu/trans/wolfline/schedules.html,a20000,ffffff,8,30,0,1,1
+239,1603,8,Southeast Loop,,3,http://www2.acs.ncsu.edu/trans/wolfline/schedules.html,a20000,ffffff,9,35,0,1,1

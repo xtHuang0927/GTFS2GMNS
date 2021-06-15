@@ -1,2 +1,0 @@
-agency_id,agency_url,agency_lang,agency_name,agency_phone,agency_timezone,agency_fare_url
-244,http://goraleigh.org/,en,GoRaleigh,(919) 485-RIDE,America/New_York,http://www.raleighnc.gov/services/content/PWksTransit/Articles/BusRates.html
